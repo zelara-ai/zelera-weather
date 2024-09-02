@@ -1,0 +1,12 @@
+[
+    {
+        "Name": "John Doe",
+        "Age": 28,
+        "Occupation": "Software Developer"
+    },
+    {
+        "Name": "Jane Smith",
+        "Age": 34,
+        "Occupation": "Data Scientist"
+    }
+]

@@ -1,0 +1,27 @@
+services:
+  db:
+    image: mongo:5.0.12
+    container_name: zelara-db
+    ports:
+     - "4002:27017"
+    restart: always
+
+  db-fixtures:
+    image: db-fixtures
+    build: ./db-fixtures
+    container_name: db-fixtures
+    depends_on:
+      - db
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile-dev
+    container_name: zelara-web
+    ports:
+      - "8000:8000"
+    environment:
+      MONGO_URL: mongodb://db:27017/zelara_db
+    depends_on:
+      - db
+    restart: always
