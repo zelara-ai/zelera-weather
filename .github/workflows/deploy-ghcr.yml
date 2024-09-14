@@ -6,7 +6,7 @@ on:
       - 'v*'
 
 env:
-  CONTAINER_NAME: zelara-worker  # Define the container name as an environment variable
+  CONTAINER_NAME: zelara-weather  # Define the container name as an environment variable
 
 jobs:
   build-and-push:
