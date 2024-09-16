@@ -1,12 +1,107 @@
-[
-    {
-        "Name": "John Doe",
-        "Age": 28,
-        "Occupation": "Software Developer"
-    },
-    {
-        "Name": "Jane Smith",
-        "Age": 34,
-        "Occupation": "Data Scientist"
-    }
-]
+{
+    "data": [
+        {
+            "_id": 2,
+            "name": "Bill Jane",
+            "location": "Deggendorf",
+            "weather_data": {
+                "coord": {
+                    "lon": 12.9667,
+                    "lat": 48.8333
+                },
+                "weather": [
+                    {
+                        "id": 804,
+                        "main": "Clouds",
+                        "description": "overcast clouds",
+                        "icon": "04n"
+                    }
+                ],
+                "base": "stations",
+                "main": {
+                    "temp": 285.01,
+                    "feels_like": 284.81,
+                    "temp_min": 284.16,
+                    "temp_max": 287.17,
+                    "pressure": 1018,
+                    "humidity": 98,
+                    "sea_level": 1018,
+                    "grnd_level": 965
+                },
+                "visibility": 10000,
+                "wind": {
+                    "speed": 2.35,
+                    "deg": 302,
+                    "gust": 5.32
+                },
+                "clouds": {
+                    "all": 100
+                },
+                "dt": 1726508289,
+                "sys": {
+                    "type": 2,
+                    "id": 2013220,
+                    "country": "DE",
+                    "sunrise": 1726461992,
+                    "sunset": 1726507168
+                },
+                "timezone": 7200,
+                "id": 2938540,
+                "name": "Deggendorf",
+                "cod": 200
+            },
+            "last_updated": "2024-09-16"
+        },
+        {
+            "_id": 1,
+            "name": "John Doe",
+            "location": "London",
+            "weather_data": {
+                "coord": {
+                    "lon": -0.1257,
+                    "lat": 51.5085
+                },
+                "weather": [
+                    {
+                        "id": 804,
+                        "main": "Clouds",
+                        "description": "overcast clouds",
+                        "icon": "04d"
+                    }
+                ],
+                "base": "stations",
+                "main": {
+                    "temp": 290.72,
+                    "feels_like": 290.31,
+                    "temp_min": 289.36,
+                    "temp_max": 291.43,
+                    "pressure": 1025,
+                    "humidity": 68,
+                    "sea_level": 1025,
+                    "grnd_level": 1021
+                },
+                "visibility": 10000,
+                "wind": {
+                    "speed": 4.63,
+                    "deg": 260
+                },
+                "clouds": {
+                    "all": 100
+                },
+                "dt": 1726422432,
+                "sys": {
+                    "type": 2,
+                    "id": 2075535,
+                    "country": "GB",
+                    "sunrise": 1726378557,
+                    "sunset": 1726424130
+                },
+                "timezone": 3600,
+                "id": 2643743,
+                "name": "London",
+                "cod": 200
+            },
+            "last_updated": "2024-09-15"
+        }
+    ]
+}
